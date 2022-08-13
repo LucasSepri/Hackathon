@@ -1,0 +1,436 @@
+
+        @charset "utf-8";
+        @import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+        body {
+            overflow-y: hidden;
+            background-color: #18547D;
+        }
+
+        /* BACKGROUND */
+        #onda {
+            width: 100%;
+        }
+
+        /* TOPO */
+        h1 {
+            position: relative;
+            margin-top: 2%;
+            margin-left: 30%;
+            display: inline-flex;
+            color: #f3f3f3;
+            font-family: candal;
+            font-size: 4em;
+            text-align: center;
+        }
+
+        .topo {
+            width: 100%;
+            height: 90px;
+
+        }
+
+        .topo img {
+            width: 30%;
+            margin-top: -5%;
+        }
+
+        .login {
+            float: right;
+            text-decoration: none;
+            font-size: 1.5em;
+            display: inline-flex;
+            color: #FFFFFF;
+        }
+
+        .login:hover {
+            color: #C1CBD1;
+        }
+
+        /* CONTAINER PAI */
+        .container-fluid {
+            float: start;
+            /* margin-bottom: -5%; */
+            width: 100%;
+            position: relative;
+            z-index: 99912;
+        }
+
+        /* CONTAINERs COM CONTEÚDO */
+        .container {
+            margin: auto;
+            right: 6%;
+            border-radius: 30px;
+            position: relative;
+            z-index: 9991;
+            margin-top: 2%;
+            padding: 1%;
+            width: 50%;
+            height: auto;
+        }
+
+        /* CONTEÚDO ESQUERDO */
+        .card {
+            background-color: #202E4F;
+            max-width: 50%;
+            height: 60%;
+            margin: auto;
+            border-radius: 30px;
+            padding-top: 8%;
+            box-shadow: 0px 10px 30px black;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        label {
+            margin: auto;
+            padding: 10px 5px;
+            width: 100%;
+            border-radius: 10px;
+            background-color: #F3F3F3;
+            color: #202E4F;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: candal;
+            display: block;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .inputform input {
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px black;
+            text-align: center;
+            font-size: 1.3em;
+            font-family: candal;
+        }
+
+        .btn {
+            background-color: #202E4F;
+            margin: auto;
+            width: auto;
+            border-radius: 10px;
+            border-color: #202E4F;
+            box-shadow: 0px 10px 30px black;
+            text-align: center;
+            font-family: candal;
+        }
+
+        /* CONTEÚDO DIREITO */
+
+        .form-group textarea {
+            background-color: #f3f3f3;
+            box-shadow: 0px 10px 30px black;
+            border-radius: 30px;
+            padding: 3%;
+            font-family: candal;
+        }
+
+
+        /* config */
+        .w3-dropdown-click {
+            float: right;
+            margin-right: 3%;
+        }
+
+        #teste.dark {
+            background-color: #ffff;
+
+
+        }
+
+        body.dark {
+            background: #ffffff;
+        }
+
+        .checkbox {
+            opacity: 0;
+            position: absolute;
+        }
+
+        .label {
+            background-color: #202E4F;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: auto;
+            top: 5vw;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0px;
+            position: relative;
+            width: 263.97px;
+            height: 95.87px;
+
+        }
+
+        .label .bola {
+            background-color: rgb(0, 0, 0);
+            border-radius: 50%;
+            position: absolute;
+
+
+            width: 95.87px;
+            height: 95.87px;
+            transform: translateX(0px);
+            transition: transform 0.2s linear;
+        }
+
+        .checkbox:checked+.label .bola {
+            transform: translateX(163px);
+        }
+
+        .fa-moon {
+            color: #ffffff;
+            padding: 2px;
+            width: 300px;
+        }
+
+        .fa-sun {
+            color: #f39c12;
+            padding: 2px;
+        }
+
+        #h2.dark {
+            color: #fff;
+        }
+
+        #p.dark {
+            color: #fff;
+        }
+
+        .fas {
+            z-index: 10;
+            margin: 8px;
+            font-size: 80px;
+        }
+
+
+
+        .icon-config {
+            position: absolute;
+            left: 92%;
+            top: 12px;
+            cursor: pointer;
+        }
+
+   
+
+    .config {
+        position: absolute;
+        z-index: 9999;
+        right: 0px;
+        top: -4px;
+        width: 475.42px;
+        height: 673.4px;
+    
+    
+        background: #F3F3F3;
+    
+        border-radius: 30px 0px 30px 30px;
+    
+        filter: drop-shadow(-19px 26px 16px rgba(0, 0, 0, 0.25));
+    }
+    
+    .relatar {
+        background: #202E4F;
+        border-radius: 30px;
+        margin: 10px;
+        position: absolute;
+    
+    }
+    
+    .problema {
+        width: 383px;
+        height: 233px;
+        color: #202E4F;
+        background: #ffffff;
+        border-radius: 30px;
+        margin-left: 5%;
+    }
+    
+    .perfil-circulo {
+        width: 106.4px;
+        height: 106.4px;
+        top: 25.63px;
+        background: #202E4F;
+        border-radius: 50%;
+        margin-left: 4%;
+        margin-top: 0%;
+        position: relative;
+    }
+    
+    #user {
+        margin-left: 14%;
+        margin-top: 9%;
+    }
+    
+    #nmusuario {
+        margin-left: 29%;
+        font-size: 209%;
+        margin-top: -9%;
+        position: relative;
+    }
+
+    #etec.dark {
+        filter: grayscale(0.8);
+    }
+    
+    .w3-dropdown-click {
+        float: right;
+        margin-right: 3%;
+    }
+    
+    #teste.dark {
+        background-color: #ffff;
+    
+    
+    }
+    
+    body.dark {
+        background: #ffffff;
+    }
+    
+    .checkbox {
+        opacity: 0;
+        position: absolute;
+    }
+    
+    .label {
+        background-color: #202E4F;
+        border-radius: 50px;
+        cursor: pointer;
+        margin: auto;
+        top: 5vw;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        padding: 0px;
+        position: relative;
+        width: 263.97px;
+        height: 95.87px;
+        margin-top: 70%;
+    
+    }
+    
+    .label .bola {
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        position: absolute;
+    
+    
+        width: 95.87px;
+        height: 95.87px;
+        transform: translateX(0px);
+        transition: transform 0.2s linear;
+    }
+    
+    .checkbox:checked+.label .bola {
+        transform: translateX(163px);
+    }
+    
+    .fa-moon {
+        color: #ffffff;
+        padding: 2px;
+        width: 300px;
+    }
+    
+    .fa-sun {
+        color: #f39c12;
+        padding: 2px;
+    }
+    
+    #h2.dark {
+        color: #fff;
+    }
+    
+    #p.dark {
+        color: #fff;
+    }
+    
+    .fas {
+        z-index: 10;
+        margin: 8px;
+        font-size: 80px;
+    }
+        .titulo-votar {
+            /* border: red solid 2px; */
+            width: 350px;
+            margin: 20px auto 0 auto;
+            text-align: center;
+            
+        
+        
+        }
+        
+        
+        
+        
+        .titulo-votar select {
+            padding-left: 10px;
+            display: inline;
+            top: 10px;
+            background: #202E4F;
+            border-radius: 10px;
+            color: #fff;
+            border: none;
+            height: 60px;
+            font-size: 30px;
+            cursor: pointer;
+            box-shadow: 0px 10px 30px black;
+        }
+        
+        /* CARDS */
+        .cards{
+            z-index: 9;
+        }
+        
+        
+        
+        
+        #info {
+            width: 30%;
+            bottom: 0;
+            position: absolute;
+            z-index: 9;
+        }
+        
+        /* .setas {
+            position: absolute;
+            width: 30%;
+            z-index: 10;
+            margin-top:2%;
+            /* bottom: 2%; 
+            right: 0;
+            left: 88%;
+        } */
+        
+        /* ***************************PAGINA Home******************************** */
+        
+        /* LOGIN */
+        .login {
+            position: absolute;
+            font-size: 48px;
+            left: 78%;
+            top: 4%;
+            cursor: pointer;
+        
+            color: #FFFFFF;
+        }
+        
+        .login-titulo {
+            position: absolute;
+            left: 36%;
+            top: 10%;
+            font-size: 64px;
+            font-family: 'Candal', sans-serif;
+            color: #202E4F;
+            -webkit-text-stroke: 3px #F3F3F3;
+        
+        }
